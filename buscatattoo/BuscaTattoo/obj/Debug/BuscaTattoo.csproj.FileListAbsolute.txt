@@ -1,0 +1,13 @@
+c:\users\roninho\documents\visual studio 2012\Projects\BuscaTattoo\BuscaTattoo\bin\Debug\BuscaTattoo.exe.config
+C:\Users\Roninho\documents\visual studio 2012\Projects\BuscaTattoo\BuscaTattoo\bin\Debug\DatabaseBuscaTattoo.mdf
+C:\Users\Roninho\documents\visual studio 2012\Projects\BuscaTattoo\BuscaTattoo\bin\Debug\DatabaseBuscaTattoo_log.ldf
+C:\Users\Roninho\documents\visual studio 2012\Projects\BuscaTattoo\BuscaTattoo\bin\Debug\BuscaTattoo.exe
+C:\Users\Roninho\documents\visual studio 2012\Projects\BuscaTattoo\BuscaTattoo\bin\Debug\BuscaTattoo.pdb
+C:\Users\Roninho\documents\visual studio 2012\Projects\BuscaTattoo\BuscaTattoo\obj\Debug\BuscaTattoo.csprojResolveAssemblyReference.cache
+C:\Users\Roninho\documents\visual studio 2012\Projects\BuscaTattoo\BuscaTattoo\obj\Debug\BuscaTattoo.HomePage.resources
+C:\Users\Roninho\documents\visual studio 2012\Projects\BuscaTattoo\BuscaTattoo\obj\Debug\BuscaTattoo.Login.resources
+C:\Users\Roninho\documents\visual studio 2012\Projects\BuscaTattoo\BuscaTattoo\obj\Debug\BuscaTattoo.Properties.Resources.resources
+C:\Users\Roninho\documents\visual studio 2012\Projects\BuscaTattoo\BuscaTattoo\obj\Debug\BuscaTattoo.csproj.GenerateResource.Cache
+C:\Users\Roninho\documents\visual studio 2012\Projects\BuscaTattoo\BuscaTattoo\obj\Debug\BuscaTattoo.exe
+C:\Users\Roninho\documents\visual studio 2012\Projects\BuscaTattoo\BuscaTattoo\obj\Debug\BuscaTattoo.pdb
+C:\Users\Roninho\documents\visual studio 2012\Projects\BuscaTattoo\BuscaTattoo\obj\Debug\BuscaTattoo.View.Cadastrar.resources
