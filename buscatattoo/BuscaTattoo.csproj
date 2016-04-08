@@ -75,24 +75,36 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DatabaseBuscaTattooDataSet2.xsd</DependentUpon>
     </Compile>
-    <Compile Include="HomePage.cs">
+    <Compile Include="src\Persistencia\ConnectDB.cs" />
+    <Compile Include="src\Persistencia\LoginDAO.cs" />
+    <Compile Include="src\View\Cadastrar.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="HomePage.Designer.cs">
+    <Compile Include="src\View\Cadastrar.Designer.cs">
+      <DependentUpon>Cadastrar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="src\View\HomePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="src\View\HomePage.Designer.cs">
       <DependentUpon>HomePage.cs</DependentUpon>
     </Compile>
-    <Compile Include="Login.cs">
+    <Compile Include="src\View\Login.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Login.Designer.cs">
+    <Compile Include="src\View\Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="View\Program.cs" />
+    <Compile Include="src\Model\Pessoa.cs" />
+    <Compile Include="src\View\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="HomePage.resx">
+    <EmbeddedResource Include="src\View\Cadastrar.resx">
+      <DependentUpon>Cadastrar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src\View\HomePage.resx">
       <DependentUpon>HomePage.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Login.resx">
+    <EmbeddedResource Include="src\View\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -177,8 +189,7 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Control\" />
-    <Folder Include="Model\" />
+    <Folder Include="src\Util\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
