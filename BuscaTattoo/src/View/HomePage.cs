@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using BuscaTattoo.src.View;
 
 namespace BuscaTattoo
 {
@@ -24,6 +25,12 @@ namespace BuscaTattoo
             // TODO: This line of code loads data into the 'databaseBuscaTattooDataSet1.sessao' table. You can move, or remove it, as needed.
             this.sessaoTableAdapter.Fill(this.databaseBuscaTattooDataSet1.sessao);
 
+        }
+
+        private void novoUsuárioDoSistemaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CadastrarLogin cadastrarlogin = new CadastrarLogin();
+            cadastrarlogin.ShowDialog();
         }
     }
 }
