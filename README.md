@@ -1,2 +1,2 @@
 # BuscaTattoo
-Projeto desenvolvido para estudios de tatuagems
+Projeto desenvolvido para estudios de tatuagens
