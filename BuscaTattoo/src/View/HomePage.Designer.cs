@@ -242,6 +242,7 @@
             this.novoClienteToolStripMenuItem.Name = "novoClienteToolStripMenuItem";
             this.novoClienteToolStripMenuItem.Size = new System.Drawing.Size(207, 22);
             this.novoClienteToolStripMenuItem.Text = "Novo Cliente";
+            this.novoClienteToolStripMenuItem.Click += new System.EventHandler(this.novoClienteToolStripMenuItem_Click);
             // 
             // novoHorarioToolStripMenuItem
             // 

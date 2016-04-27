@@ -32,5 +32,11 @@ namespace BuscaTattoo
             CadastrarLogin cadastrarlogin = new CadastrarLogin();
             cadastrarlogin.ShowDialog();
         }
+
+        private void novoClienteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CadastrarCliente cadastrarcliente = new CadastrarCliente();
+            cadastrarcliente.ShowDialog();
+        }
     }
 }

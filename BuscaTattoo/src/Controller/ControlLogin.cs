@@ -94,13 +94,13 @@ namespace BuscaTattoo.src.Controller
             return result;
         }//End of Inserenovologin();
 
-        public int Atualizacadastrologin(String nome, String cpf, String login, String senha) 
+        public int Atualizacadastrologin(String nome, String cpf, String login, String senha, String endereco, String email, String dob, String telefone, String dta_cadastro) 
         {
             //Cria um objeto conn passando connect como argumento
             SqlConnection conn = new SqlConnection(connect.connectDB);
 
             //Cria um objeto command passando verificalogin e conn como argumento
-            SqlCommand command = new SqlCommand(update.updateCPF, conn);
+            SqlCommand command = new SqlCommand(update.updateLoginCPF, conn);
 
             //Abre a conexão
             conn.Open();
@@ -110,6 +110,11 @@ namespace BuscaTattoo.src.Controller
             command.Parameters.AddWithValue("@cpf",cpf);
             command.Parameters.AddWithValue("@login",login);
             command.Parameters.AddWithValue("@senha",senha);
+            command.Parameters.AddWithValue("@endereco",endereco);
+            command.Parameters.AddWithValue("@email",email);
+            command.Parameters.AddWithValue("@dob",dob);
+            command.Parameters.AddWithValue("@telefone",telefone);
+            command.Parameters.AddWithValue("@dta_cadastro", dta_cadastro);
 
             //Armazena o resultado do script
             int result = command.ExecuteNonQuery();

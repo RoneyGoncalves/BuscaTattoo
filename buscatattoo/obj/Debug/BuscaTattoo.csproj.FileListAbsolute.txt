@@ -11,3 +11,4 @@ C:\Users\Roninho\documents\visual studio 2012\Projects\BuscaTattoo\BuscaTattoo\o
 C:\Users\Roninho\documents\visual studio 2012\Projects\BuscaTattoo\BuscaTattoo\obj\Debug\BuscaTattoo.exe
 C:\Users\Roninho\documents\visual studio 2012\Projects\BuscaTattoo\BuscaTattoo\obj\Debug\BuscaTattoo.pdb
 C:\Users\Roninho\documents\visual studio 2012\Projects\BuscaTattoo\BuscaTattoo\obj\Debug\BuscaTattoo.src.View.CadastrarLogin.resources
+C:\Users\Roninho\documents\visual studio 2012\Projects\BuscaTattoo\BuscaTattoo\obj\Debug\BuscaTattoo.src.View.CadastrarCliente.resources

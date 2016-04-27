@@ -37,7 +37,7 @@ namespace BuscaTattoo
             }
             else 
             {
-                MessageBox.Show("Login inválido!");
+                MessageBox.Show("Login e/ou Senha inválidos!");
             }
 
         }

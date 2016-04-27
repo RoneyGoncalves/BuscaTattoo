@@ -81,6 +81,12 @@
     <Compile Include="src\Persistencia\InsertDB.cs" />
     <Compile Include="src\Persistencia\SelectDB.cs" />
     <Compile Include="src\Persistencia\UpdateDB.cs" />
+    <Compile Include="src\View\CadastrarCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="src\View\CadastrarCliente.Designer.cs">
+      <DependentUpon>CadastrarCliente.cs</DependentUpon>
+    </Compile>
     <Compile Include="src\View\CadastrarLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -101,6 +107,9 @@
     </Compile>
     <Compile Include="src\View\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="src\View\CadastrarCliente.resx">
+      <DependentUpon>CadastrarCliente.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="src\View\CadastrarLogin.resx">
       <DependentUpon>CadastrarLogin.cs</DependentUpon>
     </EmbeddedResource>
